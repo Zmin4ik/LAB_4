@@ -2,8 +2,6 @@ export interface Product {
     id: string
     title: string
     price: number
-    description?: string
-    image?: string
 }
 
 export interface CartItem {
@@ -15,5 +13,5 @@ export interface Purchase {
     id: string
     items: CartItem[]
     total: number
-    date: string // ISO
+    date: string
 }
